@@ -110,7 +110,7 @@ int read_file( const char * const filename, const int addr );
 int write_file( const char * const filename, const char * const mode,
                 const int from, const int to );
 
-/* defined in main.c */
+/* defined in init.c */
 bool is_regular_file( const int fd );
 bool may_access_filename( const char * const name );
 bool restricted( void );
